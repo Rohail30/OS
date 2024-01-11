@@ -1,6 +1,3 @@
-# Lab-2
-
-```markdown
 # Linux Command Cheat Sheet
 
 ## sudo
@@ -64,4 +61,3 @@ Used to create and change user passwords on a Linux system.
 
 ## exit
 Closes the current shell or terminal session.
-```
