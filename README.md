@@ -22,4 +22,28 @@ This course is designed for beginners seeking to enhance their understanding of 
 - exit
 </details>
 <h2>Lab-3</h2>
-
+<details>
+- `date`
+- `cal` and `cal 2023`
+- `clear`
+- `sleep 5`
+- `time sleep 2`
+- `which bash`
+- `whereis bash`
+- `alias c='clear'` and `unalias c`
+- `history`
+- `df`
+- `shutdown` and `reboot`
+- `cat file.txt`
+  - `cat > file.txt`
+  - `cat file1.txt > file2.txt`
+  - `cat file1.txt >> file2.txt`
+  - `cat file1.txt file2.txt > file3.txt`
+- `head file.txt`
+- `tail file.txt`
+- `more file.txt` and `less file.txt`
+- `cp file1.txt file2.txt` and `cp file1.txt /myfolder/file2.txt`
+- `mv file1.txt file2.txt` and `mv file1.txt /myfolder/file2.txt`
+- `rmdir myfolder`
+- `find . -name file.txt` and `find /home/user -name file.txt`
+</details>
