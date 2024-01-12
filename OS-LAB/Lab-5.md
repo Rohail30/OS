@@ -1,63 +1,57 @@
-# Linux Command Cheat Sheet
+# Linux User and Permissions Cheat Sheet
 
-## `sudo`
-The `sudo` command is used to escalate privileges in Linux, allowing a regular user to execute commands with administrative or superuser permissions.
+## List Users and Groups:
 
-## `init 3`
-Changes the run level of the system. Run levels determine the system state and available services.
+* **`cat /etc/passwd`** - Lists all users on the system.
+* **`cat /etc/group`** - Lists all groups on the system.
 
-- **Level 0:** Halt the system.
-- **Level 1:** Single user (text mode).
-- **Level 2:** Multi-user without networking.
-- **Level 3:** Full multi-user with networking (text mode).
-- **Level 4:** User-defined.
-- **Level 5:** Full multi-user with a graphical user interface (GUI).
-- **Level 6:** Restart the system.
+## User Management:
 
-## `runlevel`
-Displays the current run level of the system.
+* **`sudo adduser testuser`** - Adds a new user to the system.
+* **`sudo deluser testuser`** - Deletes a user from the system.
+* **`sudo passwd testuser`** - Changes the password of a user.
+* **`su -l testuser`** - Switches user account.
+* **`sudo usermod -aG sudo testuser`** - Adds a user to the sudoers group.
 
-## `pwd`
-Shows the current working directory, providing the full path to the current location in the file system.
+## Group Management:
 
-## `cd /myfolder`
-Changes the current working directory to "/myfolder."
+* **`sudo groupadd testgroup`** - Adds a new group to the system.
+* **`sudo groupdel testgroup`** - Deletes a group from the system.
+* **`sudo usermod -aG testgroup testuser`** - Adds a user to a group.
+* **`sudo gpasswd -d testuser testgroup`** - Removes a user from a group.
 
-## `cd ..`
-Moves up one directory in the file system.
+## File and Directory Permissions:
 
-## `cd /`
-Changes the working directory to the root directory.
+* **`ls -l`** - Lists files in a long format (permissions, ownership, size, and modification date).
 
-## `cd ~`
-Changes the working directory to the home directory.
+### Linux Permissions Annotations:
 
-## `mkdir myfolder`
-Creates a new directory named "myfolder."
+- `r` - Read
+- `w` - Write
+- `x` - Execute
+- `-` - No permission
+- `1` - Execute only
+- `2` - Write only
+- `3` - Write and execute
+- `4` - Read only
+- `5` - Read and execute
+- `6` - Read and write
+- `7` - Read, write, and execute
+- `u` - User
+- `g` - Group
+- `o` - Others
+- `a` - All
 
-## `touch myfile.txt`
-Creates a new empty file named "myfile.txt."
+### Changing Permissions:
 
-## `nano myfile.txt`
-Opens the file "myfile.txt" in the Nano text editor, allowing for viewing and editing.
+* **`chmod 777 myfile.txt`** - Gives all permissions to all users.
+* **`chmod o+w myfile.txt`** - Gives write permission to others.
+* **`chmod g-xw myfile.txt`** - Removes execute and write permissions from the group.
 
-## `rm myfile.txt`
-Deletes the file named "myfile.txt."
+### Changing Ownership:
 
-## `ls`
-Lists the files and directories in the current working directory.
+* **`chown testuser myfile.txt`** - Changes the ownership of a file.
+* **`chown :testgroup myfile.txt`** - Changes the group of a file.
+* **`chown testuser:testgroup myfile.txt`** - Changes the ownership of a file and group.
+* **`chown -R testuser:testgroup myfolder`** - Changes the ownership of folders and subfolders recursively.
 
-## `man mkdir`
-Displays the manual (documentation) for the `mkdir` command, providing information on its usage and options.
-
-## `clear`
-Clears the terminal screen, providing a clean slate for new commands and output.
-
-## `whoami`
-Prints the current username associated with the active session.
-
-## `passwd`
-Used to create and change user passwords on a Linux system.
-
-## `exit`
-Closes the current shell or terminal session.
