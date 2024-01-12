@@ -141,3 +141,6 @@ For Loop Syntax (Printing Array Elements):
     echo ${arr[$i]}
   done
 </details>
+<h2>Lab-7</h2>
+<details>
+</details>
