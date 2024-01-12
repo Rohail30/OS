@@ -107,3 +107,37 @@ Changing Ownership:
 - chown testuser:testgroup myfile.txt
 - chown -R testuser:testgroup myfolder
 </details>
+<h2>Lab-6</h2>
+<details>
+- nano script.sh
+- chmod +x script.sh
+- ./script.sh
+- bash script.sh
+
+Basics of Scripting:
+- #! /bin/bash
+- echo "Hello World"
+- echo -e "Hello\nWorld"
+- myVar="Hello World"
+- echo $myVar
+
+Reading Input from User:
+- read
+- read myVar
+- read myVar1 myVar2 myVar3
+- read -a myVar
+
+Array Definition:
+- arr[]
+- arr=(1 2 3)
+- arr[0]=1
+
+Array Operations:
+- echo ${arr[0]} ${arr[1]}
+- echo ${#arr[@]}
+
+For Loop Syntax (Printing Array Elements):
+- for (( i=0; i<${#arr[@]}; i++ )); do
+    echo ${arr[$i]}
+  done
+</details>
