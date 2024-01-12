@@ -58,3 +58,52 @@ This course is designed for beginners seeking to enhance their understanding of 
   - `cat file.txt | grep "hello"`
   - `grep "hello" file.txt`
 </details>
+<h2>Lab-5</h2>
+<details>
+- cat /etc/passwd
+- cat /etc/group
+
+User Management:
+- sudo adduser testuser
+- sudo deluser testuser
+- sudo passwd testuser
+- su -l testuser
+- sudo usermod -aG sudo testuser
+
+Group Management:
+- sudo groupadd testgroup
+- sudo groupdel testgroup
+- sudo usermod -aG testgroup testuser
+- sudo gpasswd -d testuser testgroup
+
+File and Directory Permissions:
+- ls -l
+
+Linux Permissions Annotations:
+- r - Read
+- w - Write
+- x - Execute
+- - - No permission
+- 1 - Execute only
+- 2 - Write only
+- 3 - Write and execute
+- 4 - Read only
+- 5 - Read and execute
+- 6 - Read and write
+- 7 - Read, write, and execute
+- u - User
+- g - Group
+- o - Others
+- a - All
+
+Changing Permissions:
+- chmod 777 myfile.txt
+- chmod o+w myfile.txt
+- chmod g-xw myfile.txt
+
+Changing Ownership:
+- chown testuser myfile.txt
+- chown :testgroup myfile.txt
+- chown testuser:testgroup myfile.txt
+- chown -R testuser:testgroup myfolder
+</details>
