@@ -47,3 +47,14 @@ This course is designed for beginners seeking to enhance their understanding of 
 - `rmdir myfolder`
 - `find . -name file.txt` and `find /home/user -name file.txt`
 </details>
+<h2>Lab-4</h2>
+<details>
+- `|` - Pipe Operator
+  - `cat script.sh | head`
+  - `man man | less`
+  - `file.txt | grep "hello"`
+- `grep` - Search for a String in a File
+  - `echo "hello world" | grep "hello"`
+  - `cat file.txt | grep "hello"`
+  - `grep "hello" file.txt`
+</details>
