@@ -143,4 +143,64 @@ For Loop Syntax (Printing Array Elements):
 </details>
 <h2>Lab-7</h2>
 <details>
+
+- **sudo:**
+
+- **init 3:**
+
+- **runlevel:**
+
+- **pwd:**
+
+- **cd /myfolder:**
+
+- **cd ..:**
+
+- **cd /:**
+
+- **cd ~:**
+
+- **mkdir myfolder:**
+
+- **touch myfile.txt:**
+
+- **nano myfile.txt:**
+
+- **rm myfile.txt:**
+
+- **ls:**
+
+- **man mkdir:**
+
+- **clear:**
+
+- **whoami:**
+
+- **passwd:**
+
+- **exit:**
+</details>
+<h2>Lab-8</h2>
+<details>
+
+### Process Management:
+
+- **Process:**
+  - Foreground and background process explanation.
+
+- **Process Attributes:**
+  - UID, PID, PPID, TTY, CMD, STIME, TIME, C.
+
+- **Managing Processes:**
+  - pwd &, ps, kill.
+
+- **Linux Scheduler:**
+  - Preemptive and Non-Preemptive Scheduler.
+
+### Short Job First (SJF) - Script Example:
+
+- Script that implements the Shortest Job First (SJF) scheduling algorithm.
+</details>
+<h2>Lab-9</h2>
+<details>
 </details>
