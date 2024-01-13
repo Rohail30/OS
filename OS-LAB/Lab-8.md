@@ -59,3 +59,7 @@ done
 
 echo "Processes: ${Processes[@]}"
 echo "Burst Times: ${BurstTimes[@]}"
+```
+
+This script demonstrates a simple Shortest Job First (SJF) scheduling algorithm. Users input processes and corresponding burst times, and the script sorts them based on burst times in ascending order.
+
