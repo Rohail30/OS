@@ -203,4 +203,29 @@ For Loop Syntax (Printing Array Elements):
 </details>
 <h2>Lab-9</h2>
 <details>
+  
+- **Generate SSH Key Pair (Client Side):**
+  - `ssh-keygen -t rsa -b 4096`
+
+- **Install OpenSSH Service (Server Side):**
+  - `sudo apt-get install openssh-server`
+  - `sudo systemctl status ssh.socket`
+  - `sudo systemctl status ssh.service`
+  - `sudo systemctl restart ssh.service`
+
+- **Copy SSH Public Key to Server (Client Side):**
+  - `ssh-copy-id server_username@server_ip_address`
+
+- **Login to the Server (Client Side):**
+  - `ssh server_username@server_ip_address`
+
+- **Copy File to Server using SCP (Client Side):**
+  - `scp fileToCopy.txt server_username@server_ip_address:directoryToCopyTo`
+
+- **Download File from Server using SCP (Client Side):**
+  - `scp server_username@server_ip_address:fileToDownload.txt directoryToDownloadTo`
+
+</details>
+<h2>Lab-10</h2>
+<details>
 </details>
