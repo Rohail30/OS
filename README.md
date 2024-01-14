@@ -151,41 +151,11 @@ For Loop Syntax (Printing Array Elements):
 <h2>Lab-7</h2>
 <details>
 
-- **sudo:**
+1. **Function Declaration**
+2. **IF / ELSE Statement**
+3. **FOR Loop (Printing Array Elements)**
+4. **WHILE Loop (Printing Numbers from 1 to 10)**
 
-- **init 3:**
-
-- **runlevel:**
-
-- **pwd:**
-
-- **cd /myfolder:**
-
-- **cd ..:**
-
-- **cd /:**
-
-- **cd ~:**
-
-- **mkdir myfolder:**
-
-- **touch myfile.txt:**
-
-- **nano myfile.txt:**
-
-- **rm myfile.txt:**
-
-- **ls:**
-
-- **man mkdir:**
-
-- **clear:**
-
-- **whoami:**
-
-- **passwd:**
-
-- **exit:**
 </details>
 <h2>Lab-8</h2>
 <details>
