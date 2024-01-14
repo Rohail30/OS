@@ -18,14 +18,6 @@ A cron job schedule consists of five fields, representing minute, hour, day of m
 
 ```plaintext
 * * * * * command_to_execute
-- - - - -
-| | | | |
-| | | | ----- Day of week (0 - 7) (Sunday = 0 or 7)
-| | | ------- Month (1 - 12)
-| | --------- Day of month (1 - 31)
-| ----------- Hour (0 - 23)
-------------- Minute (0 - 59)
-
 Minute: Ranges from 0 to 59.
 Hour: Ranges from 0 to 23.
 Day of month: Ranges from 1 to 31.
