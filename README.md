@@ -246,3 +246,9 @@ For Loop Syntax (Printing Array Elements):
    - `crontab -l` - List cron jobs
    - `crontab -r` - Remove all cron jobs
 </details>
+<h2>Lab-11</h2>
+<details>
+
+1. **UFW (Uncomplicated Firewall) Commands**
+2. **Network Configuration Commands**
+</details>
