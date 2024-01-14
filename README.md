@@ -54,6 +54,7 @@ This course is designed for beginners seeking to enhance their understanding of 
 </details>
 <h2>Lab-4</h2>
 <details>
+  
 - `|` - Pipe Operator
   - `cat script.sh | head`
   - `man man | less`
@@ -62,6 +63,7 @@ This course is designed for beginners seeking to enhance their understanding of 
   - `echo "hello world" | grep "hello"`
   - `cat file.txt | grep "hello"`
   - `grep "hello" file.txt`
+    
 </details>
 <h2>Lab-5</h2>
 <details>
