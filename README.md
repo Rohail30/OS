@@ -228,4 +228,21 @@ For Loop Syntax (Printing Array Elements):
 </details>
 <h2>Lab-10</h2>
 <details>
+  
+1. **Cron Installation and Configuration**
+   - `sudo apt install cron` - Install cron
+   - `sudo systemctl enable cron` - Enable cron
+
+2. **Cron Job Syntax**
+   - `@yearly script.sh` or `0 0 1 1 * script.sh` - Run once a year
+   - `@monthly script.sh` or `0 0 1 * * script.sh` - Run once a month
+   - `@weekly script.sh` or `0 0 * * 0 script.sh` - Run once a week
+   - `@daily script.sh` or `0 0 * * * script.sh` - Run once a day
+   - `@hourly script.sh` or `0 * * * * script.sh` - Run once an hour
+   - `@reboot script.sh` - Run once at startup
+
+3. **Managing Cron Jobs**
+   - `crontab -e` - Edit cron jobs
+   - `crontab -l` - List cron jobs
+   - `crontab -r` - Remove all cron jobs
 </details>
