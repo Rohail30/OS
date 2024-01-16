@@ -1,5 +1,10 @@
 # OS-LAB
 This course is designed for beginners seeking to enhance their understanding of the Linux operating system and command-line interface (CLI). Through a series of practical lessons, participants will acquire fundamental skills to navigate the Linux file system, perform essential file and directory operations, and manage system configurations.
+<h2>Assignment</h2>
+<details>
+<p>Main Task:
+Create a deployment script that utilizes SSH to connect to a remote Apache server(VM2), stops the Apache service, deploys a new website content from a local directory(VM1) to the server(VM2), and restarts the Apache service. Schedule this deployment script as a CRON job to run every Sunday at 4 AM.</p>
+</details>
 <h2>Lab-2</h2>
 <details>
 
