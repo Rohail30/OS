@@ -1,5 +1,3 @@
-# Linux Command Cheat Sheet
-
 ## Table of Contents
 
 1. **UFW (Uncomplicated Firewall) Commands**
